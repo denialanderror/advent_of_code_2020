@@ -25,3 +25,10 @@ func TestDay3(t *testing.T) {
 	fmt.Println("Part A = ", partA)
 	fmt.Println("Part B = ", partB)
 }
+
+func TestDay4(t *testing.T) {
+	fmt.Println("Running Day4...")
+	partA, partB := Day4("./input/day4")
+	fmt.Println("Part A = ", partA)
+	fmt.Println("Part B = ", partB)
+}
